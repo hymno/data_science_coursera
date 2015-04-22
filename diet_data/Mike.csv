@@ -1,0 +1,9 @@
+bind <- function(x){
+        dat <- data.frame()
+        for(i in 1:5){
+                dat <- rbind(dat, read.csv(x[i]))
+        }
+
+
+
+}
